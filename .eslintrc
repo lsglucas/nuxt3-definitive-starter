@@ -4,11 +4,7 @@
     "browser": true,
     "node": true
   },
-  "extends": [
-    "@nuxtjs/eslint-config-typescript",
-    "plugin:nuxt/recommended",
-    "prettier"
-  ],
+  "extends": ["@nuxtjs/eslint-config-typescript", "prettier"],
   "plugins": [],
   "rules": {
     "@typescript-eslint/no-unused-vars": "off"
