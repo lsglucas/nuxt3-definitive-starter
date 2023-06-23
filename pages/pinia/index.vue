@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+	title: "Nuxt 3 Definitive Starter | Pinia",
+});
+
 const counter = useCounterStore();
 
 const count1 = () => {
