@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "@nuxtjs/i18n",
+    "@nuxtjs/google-fonts",
   ],
 
   experimental: {
@@ -64,5 +65,13 @@ export default defineNuxtConfig({
         file: "pt-BR.ts",
       },
     ],
+  },
+
+  // google fonts
+  googleFonts: {
+    preload: true,
+    families: {
+      Roboto: true,
+    },
   },
 });
