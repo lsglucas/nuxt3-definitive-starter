@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxtjs/eslint-module",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
+    "@nuxtjs/i18n",
   ],
 
   experimental: {
@@ -43,5 +44,25 @@ export default defineNuxtConfig({
       sameSite: "strict",
     },
     storage: "cookies",
+  },
+
+  // i18n
+  i18n: {
+    langDir: "lang",
+    defaultLocale: "en",
+    strategy: "prefix_and_default",
+    types: "composition",
+    locales: [
+      {
+        code: "en",
+        iso: "en-US",
+        file: "en-US.ts",
+      },
+      {
+        code: "pt",
+        iso: "pt-BR",
+        file: "pt-BR.ts",
+      },
+    ],
   },
 });
