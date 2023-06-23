@@ -4,12 +4,18 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "info": "nuxi info",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --fix .",
+    "test:ui": "vitest --ui",
+    "test:unit": "vitest --run --reporter verbose",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxt/test-utils": "^3.5.3",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/google-fonts": "^3.0.1",
@@ -17,12 +23,16 @@
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@pinia/nuxt": "^0.4.11",
     "@types/node": "^18.16.18",
+    "@vitest/coverage-v8": "^0.32.2",
+    "@vitest/ui": "^0.32.2",
     "@vueuse/core": "^10.2.0",
     "@vueuse/nuxt": "^10.2.0",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
+    "jsdom": "^22.1.0",
     "nuxt": "^3.5.3",
     "typescript": "^5.1.3",
+    "vitest": "^0.32.2",
     "vue-tsc": "^1.8.1"
   },
   "type": "module"
