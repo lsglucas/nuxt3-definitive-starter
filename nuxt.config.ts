@@ -13,7 +13,6 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxtjs/eslint-module",
     "@pinia/nuxt",
-    "@pinia-plugin-persistedstate/nuxt",
     "@nuxtjs/i18n",
     "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
@@ -38,14 +37,6 @@ export default defineNuxtConfig({
   // pinia
   pinia: {
     autoImports: ["defineStore"],
-  },
-
-  // - pinia-plugin-persistedstate
-  piniaPersistedstate: {
-    cookieOptions: {
-      sameSite: "strict",
-    },
-    storage: "cookies",
   },
 
   // i18n
