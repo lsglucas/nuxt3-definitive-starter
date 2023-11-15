@@ -34,11 +34,6 @@ export default defineNuxtConfig({
     propsDestructure: true,
   },
 
-  // pinia
-  pinia: {
-    autoImports: ["defineStore"],
-  },
-
   // i18n
   i18n: {
     langDir: "lang",
