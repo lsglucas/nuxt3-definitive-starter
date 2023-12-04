@@ -19,7 +19,7 @@
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/google-fonts": "^3.1.0",
-    "@nuxtjs/i18n": "8.0.0-rc.5",
+    "@nuxtjs/i18n": "8.0.0-rc.6",
     "@pinia/nuxt": "^0.5.1",
     "@types/node": "^20.10.3",
     "@vitest/coverage-v8": "^0.34.6",
