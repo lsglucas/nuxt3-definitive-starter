@@ -30,7 +30,6 @@ export default defineNuxtConfig({
 
   // vue
   vue: {
-    defineModel: true,
     propsDestructure: true,
   },
 
